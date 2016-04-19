@@ -17,10 +17,16 @@
             margin: 100px auto;
             transition: 1s;
             transform-style: preserve-3d;
-            transform-origin:center center -50px;
+            transform-origin: center center -50px;
+            animation: 4s move 4;
         }
-        .box:hover .wrap {
+        /*.box:hover .wrap {
             transform: rotateX(180deg);
+        }*/
+        @keyframes move {
+            50% {
+                transform: rotateY(360deg);
+            }
         }
         .wrap div{
             width: 100px;

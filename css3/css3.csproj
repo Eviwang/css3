@@ -85,11 +85,12 @@
     <Content Include="UI\风车.html" />
     <Content Include="Web.config" />
     <Content Include="ext\transform.html" />
-    <Content Include="动画\transform-matrix-scale.html" />
-    <Content Include="动画\transform-matrix位移.html" />
-    <Content Include="动画\transform2.html" />
-    <Content Include="动画\transform.html" />
-    <Content Include="动画\过渡.html" />
+    <Content Include="transform\transform-matrix-scale.html" />
+    <Content Include="transform\transform-matrix位移.html" />
+    <Content Include="transform\transform2.html" />
+    <Content Include="transform\transform.html" />
+    <Content Include="transform\过渡.html" />
+    <Content Include="动画\animation.html" />
     <Content Include="定位\position.html" />
     <Content Include="文本\ltr.html" />
     <Content Include="文本\textshadow.html" />
