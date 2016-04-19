@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        .box {
+            width: 404px;
+            height: 404px;
+            margin: 100px auto;
+            transition: 2s;
+        }
+        .box:hover {
+            transform: rotate(180deg);
+        }
+        .box div {
+            width: 200px;
+            height: 200px;
+            border: solid 1px red;
+            float: left;
+            background: #00ced1;
+            box-shadow: 0 0 50px red;
+        }
+        div:nth-child(1), div:nth-child(4) {
+            border-radius: 0 70%;
+        }
+        div:nth-child(2), div:nth-child(3) {
+            border-radius: 70% 0;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="box">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>

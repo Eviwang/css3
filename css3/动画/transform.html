@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: solid 1px black;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .box span{
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .box img {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto;
+            vertical-align: middle;
+            display: inline-block;
+            transition: 1s;
+        }
+            .box img:hover {
+                /*transform: scale(1.5);*/
+                /*transform: rotate(360deg);*/
+                /*transform:skewX(45deg);*/
+                transform: translateX(100px);
+            }
+
+    </style>
+</head>
+<body>
+<div class="box"><span></span><img src="../img/1.jpg"/></div>
+</body>
+</html>

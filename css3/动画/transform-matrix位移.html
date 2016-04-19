@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            height: 400px;
+            border: solid 1px black;
+        }
+        .box {
+            margin: 100px auto;
+            width: 200px;
+            height: 200px;
+            border: solid red 1px;
+            transition: 2s;
+        }
+        body:hover .box {
+            transform: matrix(1, 0, 0, 1, 100, 100);
+        }
+    </style>
+
+    <script>
+        /*
+        位移：matrix(a, b, c, d, e, f)
+             x->  e
+             y->  f
+
+            通过矩阵实现缩放                x轴缩放 a=x*a    c=x*c     e=x*e;                y轴缩放 b=y*b    d=y*d     f=y*f;            通过矩阵实现位移                x轴位移: e=e+x                y轴位移: f=f+y            通过矩阵实现倾斜                x轴倾斜: c=Math.tan(xDeg/180*Math.PI)                y轴倾斜: b=Math.tan(yDeg/180*Math.PI)
+            通过矩阵实现旋转                a=Math.cos(deg/180*Math.PI);                 b=Math.sin(deg/180*Math.PI);                c=-Math.sin(deg/180*Math.PI);                d=Math.cos(deg/180*Math.PI);
+         */
+
+
+    </script>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

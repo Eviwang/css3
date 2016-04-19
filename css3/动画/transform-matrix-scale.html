@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            height: 400px;
+            border: solid 1px black;
+        }
+        .box {
+            margin: 100px auto;
+            width: 200px;
+            height: 200px;
+            border: solid red 1px;
+            transition: 2s;
+        }
+        body:hover .box {
+            transform: scale(2);
+        }
+    </style>
+
+    <script>
+        /*
+        默认值：matrix(1, 0, 0, 1, 0, 0)
+        缩放：matrix(a, b, c, d, e, f)
+             x轴->  a=x*a  c=x*c  e=x*e  此时c*0,e*0还是0，所以c,e不变
+             y轴->  b=y*b  d=y*d  f=y*f  同上
+             matrix(2, 0, 0, 2, 0, 0)
+        */
+        
+
+
+    </script>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

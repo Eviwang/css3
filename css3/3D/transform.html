@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            transition: 1s;
+            background: url("../img/1.jpg");
+            margin: 40px auto;
+        }
+
+        body {
+            height: 300px;
+            border: solid 1px red;
+            transform-style: preserve-3d;
+            perspective: 500px;
+        }
+        body:hover .box {
+            transform: rotateX(180deg);
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    test
+</div>
+</body>
+</html>
