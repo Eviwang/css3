@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            height: 500px;
+        }
+         .box {
+             width: 100px;
+             background: red;
+             height: 100px;
+             transition: 2s;
+             margin: 50px auto;
+         }
+
+        .box:hover {
+            transform: scale(2);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box"></div>
+
+    <script>
+        var box = document.getElementsByClassName("box")[0];
+        box.addEventListener("transitionend", function () {
+            console.log("ok");
+        });
+    </script>
+</body>
+</html>
