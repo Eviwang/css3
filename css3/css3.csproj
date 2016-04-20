@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="3D\3D立方体.html" />
+    <Content Include="3D\review\3D立方体.html" />
     <Content Include="3D\transform3.html" />
     <Content Include="3D\transform2.html" />
     <Content Include="3D\transform.html" />
@@ -73,6 +74,12 @@
     <Content Include="ext\img垂直居中3.html" />
     <Content Include="ext\img垂直居中2.html" />
     <Content Include="ext\img垂直居中.html" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\8.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\7.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6.jpg" />
     <Content Include="ext\居中黑科技2.html" />
     <Content Include="ext\居中黑科技.html" />
     <Content Include="img\1.jpg" />
@@ -95,6 +102,9 @@
     <Content Include="transform\transform2.html" />
     <Content Include="transform\transform.html" />
     <Content Include="transform\过渡.html" />
+    <Content Include="动画\animation无缝滚动.html" />
+    <Content Include="动画\transition事件.html" />
+    <Content Include="动画\animation事件.html" />
     <Content Include="动画\animation.html" />
     <Content Include="定位\position.html" />
     <Content Include="文本\ltr.html" />

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        *{ 
+            margin: 0;padding: 0px;
+        }
+         .wrap {
+             width: 400px;
+             height: 100px;
+             margin: 100px auto;
+             border: solid 1px red;
+             overflow: hidden;
+             transform: scale(2);
+         }
+         
+
+        .list {
+            height: 100px;
+            width: 800px;
+            list-style: none;
+            position: relative;
+            animation: 8s move infinite linear;
+        }
+        .wrap .list:hover {
+            animation-play-state: paused;
+         }
+        @keyframes move {
+            0% {
+                left: 0px;
+            }
+            100% {
+                left: -400px;
+            }
+        }
+        .list li {
+            border: solid 1px white;
+            text-align: center;
+            font: 50px/98px "";
+            width: 98px;
+            height: 98px;
+            float: left;
+            background: black;
+            color: aqua;
+            text-shadow: 0 0 20px #fff;
+            transition: 0.2s;
+        }
+        .list li:nth-of-type(4n+1) {
+            animation: 0.5s blibli1 infinite;
+        }
+        @keyframes blibli1{
+            0% {
+                color: aqua;
+            }
+            50% {
+                color:coral;
+            }
+            100% {
+                color: aqua;
+            }
+        }
+
+        .list li:nth-of-type(4n+2) {
+            animation: 0.5s blibli2 infinite;
+        }
+        @keyframes blibli2{
+            0% {
+                color: aqua;
+            }
+            50% {
+                color:deeppink;
+            }
+            100% {
+                color: aqua;
+            }
+        }
+
+         .list li:nth-of-type(4n+3) {
+            animation: 0.5s blibli3 infinite;
+        }
+        @keyframes blibli3{
+            0% {
+                color: aqua;
+            }
+            50% {
+                color:#ee82ee;
+            }
+            100% {
+                color: aqua;
+            }
+        }
+
+         .list li:nth-of-type(4n+4) {
+            animation: 0.5s blibli4 infinite;
+        }
+        @keyframes blibli4{
+            0% {
+                color: aqua;
+            }
+            50% {
+                color:chartreuse;
+            }
+            100% {
+                color: aqua;
+            }
+        }
+
+        li:hover {
+            transform: scale(1.5);
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="wrap">
+        <ul class="list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+
+            <!--fake-->
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+</body>
+</html>
