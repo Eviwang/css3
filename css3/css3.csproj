@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="3D\3D立方体.html" />
     <Content Include="3D\review\3D立方体.html" />
+    <Content Include="3D\review\再玩2次居中.html" />
     <Content Include="3D\review\再玩2次.html" />
     <Content Include="3D\review\再玩一次.html" />
     <Content Include="3D\transform3.html" />
