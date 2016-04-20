@@ -67,9 +67,22 @@
   <ItemGroup>
     <Content Include="3D\3D立方体.html" />
     <Content Include="3D\review\3D立方体.html" />
+    <Content Include="3D\review\再玩一次.html" />
     <Content Include="3D\transform3.html" />
     <Content Include="3D\transform2.html" />
     <Content Include="3D\transform.html" />
+    <Content Include="css2复习\absolute.html" />
+    <Content Include="css2复习\inlineBlock.html" />
+    <Content Include="css2复习\clear.html" />
+    <Content Include="css2复习\定位2.html" />
+    <Content Include="css2复习\定位.html" />
+    <Content Include="css2复习\实例.html" />
+    <Content Include="css2复习\浮动2.html" />
+    <Content Include="css2复习\浮动.html" />
+    <Content Include="css2复习\清除浮动2.html" />
+    <Content Include="css2复习\清除浮动.html" />
+    <Content Include="css2复习\父子级包含.html" />
+    <Content Include="css2复习\上下外边距叠压问题.html" />
     <Content Include="ext\img垂直居中4.html" />
     <Content Include="ext\img垂直居中3.html" />
     <Content Include="ext\img垂直居中2.html" />
