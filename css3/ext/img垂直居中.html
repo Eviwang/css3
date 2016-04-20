@@ -6,15 +6,21 @@
         .box {
             width: 300px;
             height: 300px;
-            display: table-cell;
-            text-align: center;
-            vertical-align: middle;
             border: solid 1px red;
-            margin: 100px auto;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+            /*font-size: 0; 方法一   重点,因为字体基线问题*/
         }
         .box img {
-            width: 300px;
-            height: 300px;
+            width: 150px;
+            height: 150px;
+            vertical-align: middle;
+            /*display: block;
+            margin: 0 auto;   方法二 */
+        }
+        .box:hover img{
+            transform: scale(2);
         }
     </style>
 </head>

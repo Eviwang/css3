@@ -69,7 +69,12 @@
     <Content Include="3D\transform3.html" />
     <Content Include="3D\transform2.html" />
     <Content Include="3D\transform.html" />
+    <Content Include="ext\img垂直居中4.html" />
+    <Content Include="ext\img垂直居中3.html" />
+    <Content Include="ext\img垂直居中2.html" />
     <Content Include="ext\img垂直居中.html" />
+    <Content Include="ext\居中黑科技2.html" />
+    <Content Include="ext\居中黑科技.html" />
     <Content Include="img\1.jpg" />
     <Content Include="img\2.jpg" />
     <Content Include="img\border.png" />
